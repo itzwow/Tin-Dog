@@ -23,10 +23,6 @@ body{
 
 
 
-.row {
-    /* margin-top: 10%; */
-    /* height: 90vh; */
-}
 
 .container-fluid {
     padding: 3% 15%;
@@ -112,4 +108,41 @@ h3{
 .icon:hover{
     color: #ff4c68;
     cursor: pointer;
+}
+
+
+/* Testimonials  */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+}
+
+/* Press section  */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:20%;
+    padding: 20px 30px 50px;
 }
