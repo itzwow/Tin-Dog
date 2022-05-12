@@ -12,3 +12,8 @@ $(document).ready(function () {
 
     });
 })
+
+$(document).ready(function(){
+    $('html').animate({scrollTop:0}, 1);
+    $('body').animate({scrollTop:0}, 1);
+});
