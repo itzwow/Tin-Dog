@@ -13,6 +13,19 @@ body{
     /* text-align: center; */
 }
 
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: large;
+}
+
+
 .hero-head {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
@@ -20,8 +33,6 @@ body{
     line-height: 1.5;
     color: white;
 }
-
-
 
 
 .container-fluid {
@@ -96,11 +107,6 @@ body{
     padding: 5%;
 }
 
-h3{
-    font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: large;
-}
 
 .feature-box p{
     font-size: small;
@@ -130,11 +136,7 @@ h3{
 .carousel-item{
     padding: 7% 15%;
 }
-h2{
-    font-size: 2.5rem;
-    line-height: 1.5;
-    font-weight: bold;
-}
+
 
 .testimonial-image{
     width: 15%;
@@ -162,4 +164,72 @@ h2{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+
+
+/* Call to action */
+#cta{
+    padding: 5%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#cta h3{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+/* Footer  */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer p{
+    color: #8f8f8f;
+}
+
+.social-icon{
+    padding: 20px 10px;
+}
+
+#topBtn{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: #ff4c68;
+    border-radius: 100%;
+    right: 40px;
+    bottom: 40px;
+    font-size: larger;
+    color: white;
+    z-index: 12;
+    text-align: center;
+    border: none;
+    /* display: none; */
+}
+#up-arrow{
+    height: 100px;
+    width: 50px;
+}
+
+@media (max-width:1800px) and (min-width:1028px){
+    #title{
+        height: 90vh;
+    }
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
 }

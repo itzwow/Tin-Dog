@@ -33,6 +33,9 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+    <!-- Jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script/script.js" defer></script>
 </head>
 
 <body>
@@ -50,17 +53,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
         </div>
       </nav>
+
+      <!-- Scroll to top btn -->
+ 
+    <!-- <button id="topBtn"> &#8593 </button> -->
+    <button id="topBtn"><span id="up-arrow">&#8593;</span></button>
 
 
       <!-- Title -->
@@ -81,6 +89,7 @@
     </div>
   </section>
 
+  
 
   <!-- Features -->
 
@@ -221,20 +230,25 @@
   <!-- Call to Action -->
 
   <section id="cta">
-
+    <div class="container-fluid">
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <button type="button " class="btn btn-lg btn-dark download-btn"><i class="fa-brands fa-apple"></i>Download</button>
+    <button type="button " class="btn btn-lg btn-light download-btn"><i
+      class="fa-brands fa-google-play"></i>Download</button>
+      </div>
   </section>
 
 
   <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright TinDog</p>
-
+    
+      <i class="social-icon fa-brands fa-twitter"></i>
+      <i class="social-icon fa-brands fa-facebook-f"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-solid fa-envelope"></i>
+      <p>© Copyright TinDog</p>
+    
   </footer>
 
 
